@@ -1,0 +1,7 @@
+= oughta
+
+Description goes here.
+
+== Copyright
+
+Copyright (c) 2009 Gabriel Gironda. See LICENSE for details.
