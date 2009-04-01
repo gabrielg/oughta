@@ -44,7 +44,7 @@ module Thumblemonks
         #   end
         #
         def use_macro(name)
-          send(:"Macro: #{name}", Shoulda.current_context || self)
+          send(:"Macro: #{name}", ::Shoulda.current_context || self)
         end
       end
     end # MacroMacros
