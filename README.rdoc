@@ -1,6 +1,10 @@
 = oughta
 
-Description goes here.
+This little gem here contains a bunch of Shoulda extensions, including:
+
+* macro / use_macro
+
+See the RDocs for more details, until this README is complete.
 
 == Copyright
 
