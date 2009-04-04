@@ -43,8 +43,10 @@ module Thumblemonks
         #
         #   end
         #
-        def use_macro(name)
-          send(:"Macro: #{name}", ::Shoulda.current_context || self)
+        def use_macro(*macros)
+          macros.each do |name|
+            send(:"Macro: #{name}", ::Shoulda.current_context || self)
+          end
         end
       end
     end # MacroMacros
